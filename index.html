@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="hi">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Ynot AI — Web Assistant</title>
+  <link rel="manifest" href="manifest.json">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Ynot AI 🌟</h1>
+    <p class="hint">Voice & text assistant — open this page in Chrome on Android for best results.</p>
+
+    <div class="controls">
+      <button id="micBtn">🎤 Start (Auto)</button>
+      <input id="textInput" placeholder="Type a command (e.g., 'YouTube Arijit Singh')" />
+      <button id="sendBtn">Send</button>
+    </div>
+
+    <div id="log" class="log"></div>
+
+    <div class="commands">
+      <h3>Commands (try)</h3>
+      <ul>
+        <li><strong>YouTube &lt;term&gt;</strong> — open YouTube search</li>
+        <li><strong>Mausam</strong> / <strong>Weather</strong> — current weather</li>
+        <li><strong>Samay</strong> / <strong>Time</strong> — current time</li>
+        <li><strong>Khabar</strong> / <strong>News</strong> — top headlines</li>
+        <li><strong>Mazak</strong> / <strong>Joke</strong> — hear a joke</li>
+        <li><strong>Wikipedia &lt;term&gt;</strong> — short summary</li>
+        <li><strong>Band karo</strong> / <strong>Exit</strong> — stop listening</li>
+      </ul>
+    </div>
+
+    <footer>Made for <strong>Ynot</strong> — Use Chrome for best voice support.</footer>
+  </div>
+
+<script src="app.js"></script>
+</body>
+</html>
